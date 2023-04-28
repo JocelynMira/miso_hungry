@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+#logo {
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+footer {
+    width: 100%;
+    height: 50px
+}
+
+.navbar-brand span {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 200;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0 0 15px;
+}
+
+.banner{
+    background-image: url('C:/Users/jomir/onedrive/desktop/miso_hungry/flask_app/static/img/bowl.jpg');
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    margin-left: 60px;
+}
+
+.mask-custom {
+    height: 50vh;
+    backdrop-filter: blur(1px);
+    background-color: rgba(36,23,43,0.5);
+}
+
+#intro {
+    background-image: url("C:\Users\jomir\onedrive\desktop\miso_hungry\flask_app\static\img\logo.jpg");
+    height: 100vh;
+}
+@media(min-width: 992px){
+    #intro {
+        margin-top: -59px
+    }
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+span {
+    font-weight: 100;
+}
